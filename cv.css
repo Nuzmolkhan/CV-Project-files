@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-style{
+    background-image: url("star.jpg");
+    width: 100%;
+}
+
+
+*::selection{
+    color: red;
+}
+
+body{
+    background-color: #ccc;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+.container header img{
+    width: 130px;
+    height: 130px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+.head h1{
+    color: #fff;
+}
+
+.head h3{
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:navy;
+}
+.head{
+    float: left;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.links ul li a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+a{
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links ul li{
+    padding: 5px;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.head-bio{
+    float:left;
+}
+.links{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+    border-left: 5px solid #464749;
+    border-top: 5px solid #464749;
+    border-bottom: 5px solid #464749;
+    border-radius: 10%;
+    border-width: 100%;
+}
+
+.links:hover{
+    box-shadow: 2px 4px 100px #222;
+}
+
+.head-hr{
+    width: 100%;
+    border: 3px solid darkblue;
+}
+
+.common-hr{
+    width: 100%;
+    border: 1px solid darkblue;
+}
+
+.personal-info{
+    float: left;
+    margin: 50px;
+    margin-right: 200px;
+}
+
+.personal-pera{
+    float: left;
+    margin-top: 20px;
+}
+
+.personal-pera p{
+    padding-bottom: 10px;
+}
+
+.info{
+    float: left;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+.para{
+    width: 70%;
+    float: left;
+    margin-top: 20px;
+}
+
+.s-info{
+    float: left;
+    margin: 50px;
+    margin-right: 170px;
+}
+
+
+.para p{
+    line-height: 30px;
+}
+
+.dec{
+    margin-bottom: 15px;
+}
+
+
+.three-box{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.box-align{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+}
+
+footer a{
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 80px;
+    line-height: 40px;
+    width: 25%;
+    padding: 20px;
+}
+
+footer a:hover{
+    background-color: #222;
+}
+
+.link{
+    width: 100%;
+    min-height: 40px;
+    background-color: red;
+    padding-top: 20px;
+}
+
+footer p{
+    margin-top: 15px;
+    color: ghostwhite;
+    text-align: center;
+    line-height: 70px;
+}
